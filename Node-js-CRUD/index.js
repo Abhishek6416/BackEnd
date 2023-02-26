@@ -1,8 +1,8 @@
 const fs=require("fs")
 
-// fs.mkdir("abk",(err)=>{
-//     console.log("folder created")
-// })
+fs.mkdir("abk",(err)=>{
+    console.log("folder created")
+})
 
 fs.writeFile("bio.txt","my name is yo yo",(err)=>{
     console.log("files created")
