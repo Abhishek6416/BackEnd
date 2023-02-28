@@ -10,9 +10,9 @@ const RestaurentSchema = new mongoose.Schema(
     quantity: { type: "Number", require: "true" },
     rating: "Number",
   },
-  // {
-  //   timestamps: true,
-  // }
+  {
+    timestamps: true,
+  }
 );
 
 const RestaurentItems = mongoose.model("Items", RestaurentSchema);
