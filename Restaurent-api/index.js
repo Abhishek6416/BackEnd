@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use("/", routes);
 
-const PORT = process.argv[2] || 8080;
+const PORT = process.argv[2] || 8000;
 app.listen(PORT, () => {
   try {
     connection();
