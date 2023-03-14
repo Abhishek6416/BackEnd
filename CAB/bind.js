@@ -44,7 +44,9 @@ printFullName.apply(name2,["mumbai","maharastra"]);
 // the main catch is that it will not call directly call the function/method that we used to call rather it will return
 // a method that we can call it later as we store it on something
 
-let printMyName=printFullName.bind(name2,"mumbai","maharastra")
-console.log(printMyName)
+let printMyName=printFullName.bind(name2,"pune","maharastra")
+console.log(printMyName);
 
 printMyName();
+
+// 
