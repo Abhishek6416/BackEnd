@@ -10,7 +10,7 @@ let name={
 let printFullName=function(hometown){
     console.log(this.firstname+" "+this.lastname+"from"+hometown)
 }
-printFullName(name,"delhi");
+printFullName(name,"Delhi");
 
 // function Borrowing
 // using .call()  after that passing argument that will refer to this
