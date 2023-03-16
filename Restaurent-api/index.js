@@ -13,7 +13,7 @@ const PORT = process.argv[2] || 8000;
 app.listen(PORT, () => {
   try {
     connection();
-    console.log("Listening on port " + PORT);
+    console.log("Listening to port " + PORT);
   } catch (error) {
     console.log(error);
   }
