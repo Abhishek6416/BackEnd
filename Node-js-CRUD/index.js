@@ -8,7 +8,7 @@ fs.writeFile("bio.txt","my name is yo yo",(err)=>{
     console.log("files created")
 })
 
-fs.appendFile("bio.txt","anjali mondalllllllllllllllllllll",(err)=>{
+fs.appendFile("bio.txt","anjali mondallllllllllllllll",(err)=>{
     console.log(" new data added")
 })
 
