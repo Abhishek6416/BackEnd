@@ -8,7 +8,7 @@ let name={
 
 
 let printFullName=function(hometown){
-    console.log(this.firstname+" "+this.lastname+"from"+hometown)
+    console.log(this.firstname+" "+this.lastname+"from"+Hometown)
 }
 printFullName(name,"Delhi");
 
